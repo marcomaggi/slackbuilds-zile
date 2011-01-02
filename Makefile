@@ -15,6 +15,8 @@ all:
 clean:
 	$(RM) -f $(TARBALL)
 
+# The source package is unpacked in $(TMP) but the Slackware
+# package is built under "/tmp".
 package:
 	umask 0; sudo TMP=$(TMP) sh zile.SlackBuild
 
