@@ -7,6 +7,9 @@
   This way  we merge in our  version the changes they  did to the
   thing to make it compliant.
 
+* Notice  that   the  "category"  at  the   Slackbuilds  site  is
+  "development".
+
 
 ### end of file
 # Local Variables:
