@@ -13,7 +13,7 @@ TMP		= /home/marco/var/tmp
 all:
 
 clean:
-	$(RM) -f $(TARBALL)
+	$(RM) $(TARBALL)
 
 # The source package is unpacked in $(TMP) but the Slackware
 # package is built under "/tmp".
