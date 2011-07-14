@@ -1,0 +1,17 @@
+
+		 How to update the build script
+		 ==============================
+
+
+* Download  the tarball  from SlackBuilds  and start  from there.
+  This way  we merge in our  version the changes they  did to the
+  thing to make it compliant.
+
+
+### end of file
+# Local Variables:
+# mode: text
+# coding: utf-8-unix
+# fill-column: 65
+# paragraph-start: "*"
+# End:
