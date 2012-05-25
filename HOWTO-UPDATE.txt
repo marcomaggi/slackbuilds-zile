@@ -7,8 +7,40 @@
   This way  we merge in our  version the changes they  did to the
   thing to make it compliant.
 
+   <http://slackbuilds.org/repository/13.37/development/zile/>
+
 * Notice  that   the  "category"  at  the   Slackbuilds  site  is
   "development".
+
+* Copy  the file  "zile.SlackBuild" from  the  downloaded tarball
+  into the local copy and update the version number.
+
+* Check differences  between the downloaded  file "zile.info" and
+  the local copy, and update  the version numbers and the MD5 sum
+  of the upstream tarball:
+
+    $ md5sum zile-2.4.7.tar.gz
+
+* Check out the instructions at:
+
+	      <http://slackbuilds.org/guidelines/>
+		 <http://slackbuilds.org/howto/>
+
+* To build the package run:
+
+    $ make package
+
+  the package is  left in "/tmp", then install  it as usual under
+  "/usr".
+
+* To build the tarball to be uploaded to slackbuilds.org run:
+
+    $ make tarball
+
+  fill the  submission form  taking the searchable  keywords from
+  the zile package page at:
+
+   <http://slackbuilds.org/repository/13.37/development/zile/>
 
 
 ### end of file
