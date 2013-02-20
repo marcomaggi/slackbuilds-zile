@@ -14,5 +14,6 @@ autom4te*
 *.info
 *.html
 *.tar
+*.tgz
 configure
 
