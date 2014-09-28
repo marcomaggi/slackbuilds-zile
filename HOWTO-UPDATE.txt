@@ -7,7 +7,7 @@
   This way  we merge in our  version the changes they  did to the
   thing to make it compliant.
 
-   <http://slackbuilds.org/repository/13.37/development/zile/>
+   <http://slackbuilds.org/repository/14.1/development/zile/>
 
 * Notice  that   the  "category"  at  the   Slackbuilds  site  is
   "development".
@@ -40,7 +40,7 @@
   fill the  submission form  taking the searchable  keywords from
   the zile package page at:
 
-   <http://slackbuilds.org/repository/13.37/development/zile/>
+   <http://slackbuilds.org/repository/14.1/development/zile/>
 
 
 ### end of file
