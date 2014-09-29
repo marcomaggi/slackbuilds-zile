@@ -9,6 +9,10 @@
 
    <http://slackbuilds.org/repository/14.1/development/zile/>
 
+* If  there is  one:  remove  from the  .info  file the  variable
+  setting for  APPROVED; there  must be no  such variable  in the
+  uploaded tarball.
+
 * Notice  that   the  "category"  at  the   Slackbuilds  site  is
   "development".
 
