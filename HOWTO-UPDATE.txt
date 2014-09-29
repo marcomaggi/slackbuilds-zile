@@ -24,6 +24,7 @@
 * Check out the instructions at:
 
 	      <http://slackbuilds.org/guidelines/>
+	       <http://slackbuilds.org/templates/>
 		 <http://slackbuilds.org/howto/>
 
 * To build the package run:
