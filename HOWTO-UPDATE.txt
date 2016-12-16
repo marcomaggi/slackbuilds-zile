@@ -7,7 +7,7 @@
   This way  we merge in our  version the changes they  did to the
   thing to make it compliant.
 
-   <http://slackbuilds.org/repository/14.1/development/zile/>
+   <http://slackbuilds.org/repository/14.2/development/zile/>
 
 * If  there is  one:  remove  from the  .info  file the  variable
   setting for  APPROVED; there  must be no  such variable  in the
@@ -45,7 +45,7 @@
   fill the  submission form  taking the searchable  keywords from
   the zile package page at:
 
-   <http://slackbuilds.org/repository/14.1/development/zile/>
+   <http://slackbuilds.org/repository/14.2/development/zile/>
 
 
 ### end of file

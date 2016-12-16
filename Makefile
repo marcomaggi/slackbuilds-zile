@@ -18,7 +18,7 @@ clean:
 # The source package is unpacked in $(TMP) but the Slackware
 # package is built under "/tmp".
 package:
-	umask 0; sudo TMP=$(TMP) sh zile.SlackBuild
+	umask 0; sudo TMP=$(TMP) PKG_CONFIG_PATH=$(PKG_CONFIG_PATH) sh zile.SlackBuild
 
 tarball:
 	cd .. ; $(TAR) --create --verbose --verify --file=$(TARBALL) $(TARBALL_FILES)
