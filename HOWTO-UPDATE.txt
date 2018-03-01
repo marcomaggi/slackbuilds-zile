@@ -1,57 +1,54 @@
+-*- coding: utf-8-unix -*-
 
 		 How to update the build script
 		 ==============================
 
 
-* Download  the tarball  from SlackBuilds  and start  from there.
-  This way  we merge in our  version the changes they  did to the
-  thing to make it compliant.
+* Download the tarball from SlackBuilds  and start from there.  This way
+  we merge in our  version the changes they did to the  thing to make it
+  compliant.
 
-   <http://slackbuilds.org/repository/14.2/development/zile/>
+       <http://slackbuilds.org/repository/14.2/development/zile/>
 
-* If  there is  one:  remove  from the  .info  file the  variable
-  setting for  APPROVED; there  must be no  such variable  in the
-  uploaded tarball.
+* If there is  one: remove from the .info file  the variable setting for
+  APPROVED; there must be no such variable in the uploaded tarball.
 
-* Notice  that   the  "category"  at  the   Slackbuilds  site  is
-  "development".
+* Notice that the "category" at the Slackbuilds site is "development".
 
-* Copy  the file  "zile.SlackBuild" from  the  downloaded tarball
-  into the local copy and update the version number.
+* Copy the file  "zile.SlackBuild" from the downloaded  tarball into the
+  local copy and update the version number.
 
-* Check differences  between the downloaded  file "zile.info" and
-  the local copy, and update  the version numbers and the MD5 sum
-  of the upstream tarball:
+* Check  differences between  the  downloaded file  "zile.info" and  the
+  local copy,  and update  the version  numbers and the  MD5 sum  of the
+  upstream tarball:
 
     $ md5sum zile-2.4.7.tar.gz
 
 * Check out the instructions at:
 
-	      <http://slackbuilds.org/guidelines/>
-	       <http://slackbuilds.org/templates/>
-		 <http://slackbuilds.org/howto/>
+		  <http://slackbuilds.org/guidelines/>
+		  <http://slackbuilds.org/templates/>
+		    <http://slackbuilds.org/howto/>
 
 * To build the package run:
 
     $ make package
 
-  the package is  left in "/tmp", then install  it as usual under
-  "/usr".
+  the package is left in "/tmp", then install it as usual under "/usr".
 
 * To build the tarball to be uploaded to slackbuilds.org run:
 
     $ make tarball
 
-  fill the  submission form  taking the searchable  keywords from
-  the zile package page at:
+  fill the submission form taking  the searchable keywords from the zile
+  package page at:
 
-   <http://slackbuilds.org/repository/14.2/development/zile/>
+       <http://slackbuilds.org/repository/14.2/development/zile/>
 
 
 ### end of file
 # Local Variables:
 # mode: text
-# coding: utf-8-unix
-# fill-column: 65
+# fill-column: 72
 # paragraph-start: "*"
 # End:
